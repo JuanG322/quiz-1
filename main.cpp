@@ -32,7 +32,7 @@ void conjetura(int x){
     if(x>1){
         if(x % 2 == 0){
             conjetura(x/2);
-
+        }
         else{
                 conjetura(x+x+x+1);
             }
@@ -40,7 +40,7 @@ void conjetura(int x){
 
     }
 
-}
+
 
 int main(){
     int n,var,var1=0,x=0;
